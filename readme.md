@@ -1,4 +1,9 @@
-# AngularJS TodoMVC Example
+# AngularJS TodoMVC Example *now with Aphrodite!*
+
+This is the original AngularJS TodoMVC example, but with the [Aphrodite](https://github.com/khan/aphrodite) library also included on the page so that we can try it out for converting this project from CSS to using Aphrodite.
+
+You might find the [CSS to React](http://staxmanade.com/CssToReact/) tool to be handy for this.
+
 
 > HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
 
