@@ -5,9 +5,12 @@
  * - retrieves and persists the model via the todoStorage service
  * - exposes the model to the template and provides event handlers
  */
+
 angular.module('todomvc')
-	.controller('TodoCtrl', function TodoCtrl($scope, $routeParams, $filter, store) {
+	.controller('TodoCtrl', function TodoCtrl($scope, $routeParams, $filter, store, styles) {
 		'use strict';
+
+		$scope.styles = styles;
 
 		var todos = $scope.todos = store.todos;
 
